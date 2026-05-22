@@ -1,0 +1,346 @@
+[
+  {
+    "id": "cake-citron",
+    "title": "Cake au citron",
+    "description": "Un cake simple, moelleux et acidulé pour apprendre la cuisson d’un appareil à cake.",
+    "category": "dessert",
+    "cuisine": "francaise",
+    "diet": ["vegetarien"],
+    "level": 1,
+    "durationMinutes": 55,
+    "activeTimeMinutes": 15,
+    "budget": "faible",
+    "effort": 2,
+    "desire": 5,
+    "servings": 6,
+    "mainSkill": "cuisson-four",
+    "skills": ["patisserie", "equilibre-sucre-acide"],
+    "tags": ["dessert", "gouter", "classique-francais"],
+    "ingredients": [
+      { "name": "farine", "quantity": 200, "unit": "g" },
+      { "name": "sucre", "quantity": 150, "unit": "g" },
+      { "name": "beurre fondu", "quantity": 100, "unit": "g" },
+      { "name": "oeufs", "quantity": 3, "unit": "pièces" },
+      { "name": "citrons", "quantity": 2, "unit": "pièces" },
+      { "name": "levure chimique", "quantity": 1, "unit": "sachet" },
+      { "name": "sel", "quantity": 1, "unit": "pincée" }
+    ],
+    "equipment": ["four", "moule à cake", "saladier", "fouet", "râpe fine"],
+    "steps": [
+      {
+        "id": "step-1",
+        "title": "Préparer le four et le moule",
+        "action": "Préchauffe le four à 170°C. Beurre et farine légèrement le moule à cake.",
+        "why": "Un four déjà chaud lance correctement la cuisson. Le moule préparé facilite le démoulage.",
+        "sensoryCue": "Le moule doit être couvert d’un film fin et régulier, sans amas de farine.",
+        "commonMistake": "Ne pas préchauffer le four peut donner un cake dense ou mal levé."
+      },
+      {
+        "id": "step-2",
+        "title": "Mélanger les oeufs et le sucre",
+        "action": "Fouette les oeufs et le sucre pendant 1 à 2 minutes, jusqu’à obtenir un mélange plus clair.",
+        "why": "Cette étape incorpore un peu d’air et aide à obtenir une texture plus légère.",
+        "sensoryCue": "Le mélange devient légèrement mousseux et plus pâle.",
+        "commonMistake": "Fouetter trop peu donne une texture plus compacte."
+      },
+      {
+        "id": "step-3",
+        "title": "Ajouter citron et beurre",
+        "action": "Ajoute les zestes, le jus d’un citron et le beurre fondu tiédi. Mélange brièvement.",
+        "why": "Le zeste donne le parfum principal. Le jus apporte l’acidité, mais trop de jus peut fragiliser la texture.",
+        "sensoryCue": "Le mélange doit sentir franchement le citron sans devenir liquide comme une pâte à crêpes.",
+        "commonMistake": "Ajouter du beurre trop chaud peut commencer à cuire les oeufs."
+      },
+      {
+        "id": "step-4",
+        "title": "Incorporer les poudres",
+        "action": "Ajoute la farine, la levure et le sel. Mélange juste assez pour ne plus voir de farine.",
+        "why": "Trop travailler la pâte développe le gluten et peut rendre le cake moins moelleux.",
+        "sensoryCue": "La pâte doit être homogène, épaisse et souple.",
+        "commonMistake": "Mélanger longuement comme une pâte à pain rend le cake plus élastique."
+      },
+      {
+        "id": "step-5",
+        "title": "Cuire le cake",
+        "action": "Verse dans le moule et cuis 35 à 40 minutes. Vérifie avec la lame d’un couteau : elle doit ressortir presque sèche.",
+        "why": "La cuisson lente laisse le centre prendre sans brûler les bords.",
+        "sensoryCue": "Le dessus est doré, fendu au centre, et la lame ressort avec quelques miettes humides.",
+        "commonMistake": "Attendre une lame totalement sèche peut conduire à un cake trop cuit.",
+        "timerMinutes": 40
+      }
+    ],
+    "commonErrors": ["cake-sec", "cake-pas-cuit-centre"],
+    "variants": ["cake-orange", "cake-citron-pavot"],
+    "isCertified": true
+  },
+  {
+    "id": "omelette-fines-herbes",
+    "title": "Omelette aux fines herbes",
+    "description": "Une recette courte pour apprendre à contrôler la cuisson des oeufs.",
+    "category": "plat",
+    "cuisine": "francaise",
+    "diet": ["vegetarien"],
+    "level": 1,
+    "durationMinutes": 12,
+    "activeTimeMinutes": 12,
+    "budget": "faible",
+    "effort": 1,
+    "desire": 3,
+    "servings": 1,
+    "mainSkill": "cuisson-oeufs",
+    "skills": ["assaisonnement", "cuisson-poele"],
+    "tags": ["rapide", "classique-francais", "quotidien"],
+    "ingredients": [
+      { "name": "oeufs", "quantity": 3, "unit": "pièces" },
+      { "name": "beurre", "quantity": 15, "unit": "g" },
+      { "name": "ciboulette ou persil", "quantity": 1, "unit": "petite poignée" },
+      { "name": "sel", "note": "à ajuster" },
+      { "name": "poivre", "note": "à ajuster" }
+    ],
+    "equipment": ["poêle antiadhésive", "bol", "fourchette", "spatule"],
+    "steps": [
+      {
+        "id": "step-1",
+        "title": "Battre les oeufs",
+        "action": "Casse les oeufs dans un bol, sale légèrement, poivre, puis bats à la fourchette sans chercher à faire mousser.",
+        "why": "Le mélange doit être homogène, mais trop battre incorpore de l’air inutile pour une omelette tendre.",
+        "sensoryCue": "Le jaune et le blanc ne doivent plus former de traces séparées.",
+        "commonMistake": "Saler beaucoup trop tôt et trop fort peut rendre l’omelette plus aqueuse."
+      },
+      {
+        "id": "step-2",
+        "title": "Chauffer la poêle",
+        "action": "Fais fondre le beurre à feu moyen jusqu’à ce qu’il mousse sans brunir.",
+        "why": "Le beurre mousse quand l’eau s’évapore. C’est un bon repère de chaleur avant d’ajouter les oeufs.",
+        "sensoryCue": "Le beurre chante doucement et reste blond.",
+        "commonMistake": "Un beurre brun indique une poêle trop chaude pour une omelette baveuse."
+      },
+      {
+        "id": "step-3",
+        "title": "Cuire doucement",
+        "action": "Verse les oeufs. Ramène les bords vers le centre avec la spatule pendant que l’oeuf encore liquide coule sur les côtés.",
+        "why": "Ce mouvement permet une cuisson régulière sans dessécher le dessous.",
+        "sensoryCue": "Le dessus reste encore légèrement brillant au moment de plier.",
+        "commonMistake": "Attendre que le dessus soit totalement sec donne une omelette trop cuite."
+      },
+      {
+        "id": "step-4",
+        "title": "Ajouter les herbes et plier",
+        "action": "Ajoute les herbes, plie l’omelette et sers immédiatement.",
+        "why": "Les herbes fraîches gardent mieux leur parfum quand elles ne cuisent presque pas.",
+        "sensoryCue": "L’omelette doit être souple, brillante et légèrement baveuse au centre.",
+        "commonMistake": "Laisser l’omelette dans la poêle après cuisson continue de la cuire."
+      }
+    ],
+    "commonErrors": ["oeufs-trop-cuits"],
+    "variants": ["omelette-fromage", "omelette-champignons"],
+    "isCertified": true
+  },
+  {
+    "id": "poulet-poele-sauce-citron",
+    "title": "Poulet poêlé sauce citron",
+    "description": "Un plat du quotidien pour apprendre à saisir une viande et faire une sauce minute.",
+    "category": "plat",
+    "cuisine": "francaise",
+    "diet": [],
+    "level": 2,
+    "durationMinutes": 30,
+    "activeTimeMinutes": 25,
+    "budget": "moyen",
+    "effort": 2,
+    "desire": 4,
+    "servings": 2,
+    "mainSkill": "cuisson-poele",
+    "skills": ["sauce-minute", "acidite", "cuisson-viande"],
+    "tags": ["rapide", "quotidien", "classique-francais"],
+    "ingredients": [
+      { "name": "filets de poulet", "quantity": 2, "unit": "pièces" },
+      { "name": "citron", "quantity": 1, "unit": "pièce" },
+      { "name": "beurre", "quantity": 20, "unit": "g" },
+      { "name": "huile d’olive", "quantity": 1, "unit": "c. à soupe" },
+      { "name": "eau ou bouillon", "quantity": 80, "unit": "ml" },
+      { "name": "sel", "note": "à ajuster" },
+      { "name": "poivre", "note": "à ajuster" }
+    ],
+    "equipment": ["poêle", "pince", "assiette", "cuillère"],
+    "steps": [
+      {
+        "id": "step-1",
+        "title": "Préparer le poulet",
+        "action": "Sale les filets de poulet sur les deux faces. S’ils sont très épais, aplatis-les légèrement.",
+        "why": "Une épaisseur régulière permet une cuisson plus homogène.",
+        "sensoryCue": "Les morceaux doivent avoir une épaisseur proche sur toute leur longueur.",
+        "commonMistake": "Cuire un filet très épais sans l’aplatir donne souvent un extérieur sec et un centre juste cuit."
+      },
+      {
+        "id": "step-2",
+        "title": "Saisir la première face",
+        "action": "Chauffe l’huile à feu moyen-vif. Pose le poulet et ne le bouge pas pendant 3 à 4 minutes.",
+        "why": "Ne pas bouger la viande laisse la coloration se former.",
+        "sensoryCue": "La poêle doit grésiller franchement, sans fumée épaisse.",
+        "commonMistake": "Bouger le poulet toutes les 20 secondes empêche la belle coloration.",
+        "timerMinutes": 4
+      },
+      {
+        "id": "step-3",
+        "title": "Finir la cuisson",
+        "action": "Retourne le poulet et cuis encore 3 à 5 minutes selon l’épaisseur. Réserve dans une assiette.",
+        "why": "Le repos permet aux jus de se répartir avant la découpe.",
+        "sensoryCue": "Le poulet doit être ferme mais pas dur au toucher.",
+        "commonMistake": "Découper immédiatement fait perdre davantage de jus."
+      },
+      {
+        "id": "step-4",
+        "title": "Déglacer",
+        "action": "Verse l’eau ou le bouillon dans la poêle chaude et gratte les sucs avec une cuillère.",
+        "why": "Les sucs collés au fond concentrent le goût. Le liquide les transforme en base de sauce.",
+        "sensoryCue": "Le liquide devient rapidement brun clair et parfumé.",
+        "commonMistake": "Jeter les sucs revient à jeter une grande partie du goût."
+      },
+      {
+        "id": "step-5",
+        "title": "Équilibrer la sauce",
+        "action": "Ajoute un peu de jus de citron, puis le beurre froid. Mélange jusqu’à obtenir une sauce brillante.",
+        "why": "Le citron apporte de la fraîcheur. Le beurre arrondit l’acidité et donne une texture plus nappante.",
+        "sensoryCue": "La sauce doit être brillante et légèrement sirupeuse.",
+        "commonMistake": "Mettre tout le citron d’un coup peut rendre la sauce trop acide."
+      }
+    ],
+    "commonErrors": ["viande-seche", "sauce-trop-acide"],
+    "variants": ["poulet-moutarde", "poulet-creme-citron"],
+    "isCertified": true
+  },
+  {
+    "id": "dahl-lentilles-corail",
+    "title": "Dahl de lentilles corail",
+    "description": "Un plat végétarien économique pour apprendre à mijoter et construire le goût avec les épices.",
+    "category": "plat",
+    "cuisine": "indienne",
+    "diet": ["vegetarien", "vegan"],
+    "level": 1,
+    "durationMinutes": 35,
+    "activeTimeMinutes": 15,
+    "budget": "faible",
+    "effort": 2,
+    "desire": 4,
+    "servings": 3,
+    "mainSkill": "mijotage",
+    "skills": ["epices", "cuisine-vegetale", "texture"],
+    "tags": ["vegan", "vegetarien", "petit-budget", "cuisine-du-monde"],
+    "ingredients": [
+      { "name": "lentilles corail", "quantity": 200, "unit": "g" },
+      { "name": "oignon", "quantity": 1, "unit": "pièce" },
+      { "name": "ail", "quantity": 1, "unit": "gousse" },
+      { "name": "lait de coco", "quantity": 200, "unit": "ml" },
+      { "name": "tomates concassées", "quantity": 200, "unit": "g" },
+      { "name": "curry", "quantity": 1, "unit": "c. à soupe" },
+      { "name": "huile", "quantity": 1, "unit": "c. à soupe" },
+      { "name": "sel", "note": "à ajuster" }
+    ],
+    "equipment": ["casserole", "couteau", "planche", "cuillère"],
+    "steps": [
+      {
+        "id": "step-1",
+        "title": "Faire revenir l’oignon",
+        "action": "Émince l’oignon et fais-le cuire dans l’huile à feu moyen pendant 5 minutes.",
+        "why": "Cette base douce donne du goût au plat avant même d’ajouter les lentilles.",
+        "sensoryCue": "L’oignon devient translucide et sent légèrement sucré.",
+        "commonMistake": "Feu trop fort : l’oignon colore avant d’être fondant."
+      },
+      {
+        "id": "step-2",
+        "title": "Ajouter ail et épices",
+        "action": "Ajoute l’ail haché et le curry. Remue 30 secondes.",
+        "why": "La chaleur réveille les arômes des épices, mais l’ail brûle vite.",
+        "sensoryCue": "Les épices sentent plus fort, sans odeur brûlée.",
+        "commonMistake": "Cuire l’ail plusieurs minutes à sec le rend amer."
+      },
+      {
+        "id": "step-3",
+        "title": "Mijoter",
+        "action": "Ajoute lentilles, tomates, lait de coco et 300 ml d’eau. Sale et laisse mijoter 18 à 22 minutes.",
+        "why": "Les lentilles corail se défont en cuisant et donnent naturellement une texture crémeuse.",
+        "sensoryCue": "La préparation épaissit et les lentilles deviennent tendres.",
+        "commonMistake": "Ne pas remuer du tout peut faire accrocher le fond.",
+        "timerMinutes": 20
+      },
+      {
+        "id": "step-4",
+        "title": "Ajuster la texture",
+        "action": "Ajoute un peu d’eau si le dahl est trop épais. Goûte et corrige le sel.",
+        "why": "La texture finale doit être souple et nappante, pas compacte.",
+        "sensoryCue": "Le dahl doit tomber lentement de la cuillère.",
+        "commonMistake": "Servir trop épais donne une sensation lourde."
+      }
+    ],
+    "commonErrors": ["plat-trop-epais", "epices-amers"],
+    "variants": ["dahl-epinards", "dahl-patate-douce"],
+    "isCertified": true
+  },
+  {
+    "id": "pates-tomate-basilic",
+    "title": "Pâtes tomate basilic",
+    "description": "Un classique simple pour apprendre à réduire une sauce et bien cuire des pâtes.",
+    "category": "plat",
+    "cuisine": "italienne",
+    "diet": ["vegetarien"],
+    "level": 1,
+    "durationMinutes": 25,
+    "activeTimeMinutes": 20,
+    "budget": "faible",
+    "effort": 1,
+    "desire": 4,
+    "servings": 2,
+    "mainSkill": "sauce-simple",
+    "skills": ["cuisson-pates", "reduction", "assaisonnement"],
+    "tags": ["rapide", "quotidien", "vegetarien", "cuisine-du-monde"],
+    "ingredients": [
+      { "name": "pâtes", "quantity": 200, "unit": "g" },
+      { "name": "tomates concassées", "quantity": 400, "unit": "g" },
+      { "name": "ail", "quantity": 1, "unit": "gousse" },
+      { "name": "huile d’olive", "quantity": 2, "unit": "c. à soupe" },
+      { "name": "basilic", "quantity": 1, "unit": "petite poignée" },
+      { "name": "parmesan", "note": "optionnel" },
+      { "name": "sel", "note": "à ajuster" }
+    ],
+    "equipment": ["grande casserole", "poêle ou sauteuse", "passoire", "cuillère"],
+    "steps": [
+      {
+        "id": "step-1",
+        "title": "Lancer l’eau des pâtes",
+        "action": "Mets une grande casserole d’eau à bouillir et sale-la franchement quand elle bout.",
+        "why": "Les pâtes s’assaisonnent de l’intérieur pendant la cuisson.",
+        "sensoryCue": "L’eau doit goûter salée, sans être imbuvable.",
+        "commonMistake": "Saler seulement la sauce donne des pâtes fades."
+      },
+      {
+        "id": "step-2",
+        "title": "Parfumer l’huile",
+        "action": "Fais chauffer l’huile à feu moyen avec l’ail haché pendant 30 secondes.",
+        "why": "L’huile transporte les arômes de l’ail dans toute la sauce.",
+        "sensoryCue": "L’ail doit sentir bon et rester blond.",
+        "commonMistake": "L’ail brûlé donne une amertume difficile à corriger."
+      },
+      {
+        "id": "step-3",
+        "title": "Réduire la tomate",
+        "action": "Ajoute les tomates, sale légèrement et laisse mijoter 12 à 15 minutes.",
+        "why": "Réduire concentre le goût et évapore l’eau excédentaire.",
+        "sensoryCue": "La sauce épaissit et laisse une trace quand tu passes la cuillère.",
+        "commonMistake": "Servir la sauce trop aqueuse dilue le goût.",
+        "timerMinutes": 15
+      },
+      {
+        "id": "step-4",
+        "title": "Finir dans la sauce",
+        "action": "Égoutte les pâtes une minute avant la fin indiquée et termine-les dans la sauce avec un peu d’eau de cuisson.",
+        "why": "L’amidon de l’eau de cuisson aide la sauce à accrocher aux pâtes.",
+        "sensoryCue": "La sauce doit enrober les pâtes au lieu de rester au fond de l’assiette.",
+        "commonMistake": "Rincer les pâtes enlève l’amidon utile."
+      }
+    ],
+    "commonErrors": ["sauce-trop-liquide", "pates-trop-cuites"],
+    "variants": ["pates-arrabbiata", "pates-tomate-mozzarella"],
+    "isCertified": true
+  }
+]
