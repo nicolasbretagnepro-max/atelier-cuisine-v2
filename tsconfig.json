@@ -17,5 +17,6 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
+  "ignoreDeprecations": "6.0"
   "references": []
 }
